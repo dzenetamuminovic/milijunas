@@ -1,0 +1,36 @@
+body{
+    background-color: #d8d8d8;
+    color: #313537;
+    /* #888888*/ 
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.naslov{
+    color: #4b1d52;
+    text-align: center;
+    font-family: Monoton;
+    font-size: 80px;
+}
+
+.prvibtn{
+    width: 100%;
+    padding: 25px;
+    background-color:  #d8d8d8;
+    color:#4b1d52;
+    border: #313537;
+    box-shadow: 0 8px 16px 0 rgba(44, 7, 53, 0.616), 0 6px 20px 0 rgba(44, 7, 53, 0.616);
+    border-radius: 30px;
+    font-family: DM Serif Display;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.prvibtn:hover{
+    font-size: 30px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: #d8d8d8;
+    color: #313537;
+    /* #888888*/ 
+}
+.navbar{
+    background-image: linear-gradient( #4b1d522a,  #d8d8d8);
+    color: #4b1d52;
+    font-weight: bold;
+    text-align: center;
+    font-family: DM Serif Display;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #4b1d52;
+}
+
+h1{
+    color: #4b1d52;
+    font-weight: bold;
+    text-align: center;
+    font-family: DM Serif Display;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+h5{
+    margin-top: 5px;
+    color: #313537;
+}
+
+h3{
+    margin-top: 15px;
+    color: #313537;
+}
+
+p{
+    color: #888888;
+    padding-bottom: 2px;
+}

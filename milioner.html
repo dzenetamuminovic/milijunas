@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=DM Serif Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="css/milioner.css">
+    <link rel="shortcut icon" href="slike/money.png" type="image/png">
+    <title>MILIONER</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="height: 70px;">
+
+            <div class="navbar">
+                <div class="col-sm-3">
+                    <a href="pocetna.html">POČETNA</a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="upute.html">UPUTE</a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="o projektu.html">O PROJEKTU</a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="">NOVA IGRA</a>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <div class="container" id="kviz">
+
+        <h1 id="pitanje">PITANJE</h1>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <button  class="odgovor">odgovor1</button>
+            </div>
+            <div class="col-sm-6">
+                <button class="odgovor">odgovor2</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <button class="odgovor">odgovor3</button>
+            </div>
+            <div class="col-sm-6">
+                <button class="odgovor">odgovor4</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="slike/money.png" style="width: 100%; height: auto; margin-top: 30px;">
+                    </div>
+                    <div class="col-sm-10">
+                        <h5 id="naslov">TRENUTNA SUMA: <p id="brojac"> 0$ </p> </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div id="restart-button" class="restart"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
